@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: a0ASGICqfD3JJaliXVYwKuIqCITL5Dwz+tt9ubY4LvYZPaMciPihe0t4QRsSHRuNrcHVUbqIcHOAPx5fUCRzTJB5wOjxPajbjzAvq7qhSyQRjlOwbSCVKOwYirlwXqe8lewl4O9ppb4MIomDPBGA8DnmfpZPwEcWGy7U+oZQSvKu/G31U2FWCbh67BybtFmWryIkk5fszc0IBj0u2cnvDu6WACgMZ1IrBzoMhhz066k8nR7TPiIAi9xhvsQkSdRQmXfZm69xyp1+QXUjzjHVuJqpK7AXwouz5YeRamqrz/pkvFXvACVgqe2nU4m//JghNG0oBzW7ssWpLyh6Xc64k+ZPdieHZtAaWw0ofMRyOdG28OtsmkTuVr8qUWnIf1s/CQL8Aarb3HTRMu0Xy1RH1Eagk6uCeXOQ9z3+AOZUH9bNoXYH/HRoSAFbTtKxPjEQ+kPv8rWk7wY6MyfLcZJUJ9emwuJQIAEcMVP6o+I8yQqfId04cEvt0Awojf8vlCfCTf2gJMnVI1qsn5f4Uqg6K3fxTcQ9DQ1a/yZ3Am+WPxI/0JKbnyA8FLLrwsYwUHnXMXGUZ9E+wQNpmpz9d5Yu88IkFu5AfDaTF7sHo1rgI1iNbkshE2EKVOzzg3mWPxiE/oNl1VJcXkmYR6CiDpfdueG0IusICkWsfnQRUdB295E=
+  app: 'https://shrouded-reef-35439.herokuapp.com/'
+  on:
+    repo: jmgsquared214/node-shopping-list-integration-tests
